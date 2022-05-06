@@ -1,0 +1,89 @@
+.header{
+text-align: center;
+padding: 20px;
+}
+.header h1{
+    font-size:20px;
+}
+.content{
+    width:90%;
+    margin: 0 auto;
+    text-align: left;
+}
+.content label{
+    font-weight:bold;
+}
+.content label::after{
+    content: " ※";
+    color: #f00;
+    vertical-align: middle;
+}
+.content table{
+    width: 100%;
+}
+.content th{
+    width: 20%;
+}
+.content td{
+    width: 70%;
+}
+.content th, td{
+    padding-bottom: 60px;
+    vertical-align: top;
+}
+.label_building::after{
+    display: none;
+}
+.example{
+    color: #c8c8c8;
+}
+.name_example{
+    color: #c8c8c8;
+    display: inline-block;
+}
+.mg{
+    margin-right: 45%;
+}
+.content input{
+    border: 1px solid #c8c8c8;
+    border-radius:3px;
+    height:25px;
+    margin-bottom: 10px;
+}
+.content textarea{
+    border: 1px solid #c8c8c8;
+    border-radius:3px;
+    resize: none;
+}
+.form{
+    width: 98%;
+}
+.form_name{
+    width: 48%;
+    margin-right: 5px;
+}
+.postal{
+    width: 93%;
+    display: inline-block;
+}
+.postal_mark{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.form_gender{
+    accent-color: #000;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.confirm_btn{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}

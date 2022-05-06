@@ -1,0 +1,44 @@
+.header{
+    text-align: center;
+    padding: 20px;
+}
+.header h1{
+    font-size: 20px;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+.content table{
+    width: 100%;
+}
+.content th{
+    padding: 40px;
+    width: 40%;
+}
+.content td{
+    width: 60%;
+}
+.opinion{
+    word-wrap: break-word;
+    max-width: 200px;
+}
+.post_btn{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    border-radius: 3px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+.back_btn{
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
